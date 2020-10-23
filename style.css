@@ -30,7 +30,17 @@ main {
 main nav {
     margin-left: 2.1vw;
     font-family: 'Crimson Text', serif;
-    font-weight: 550;
+    font-weight: 700;
+
+}
+
+main > p {
+    color: white;
+    background-color: black;
+    width: 12%;
+    font-family: Segoe UI;
+    font-size: 1.5vw;
+    padding: .2vw 1vw
 }
 
 il {
@@ -43,7 +53,7 @@ main > p {
 
 .stockGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 4vw;
     justify-items: center;
     margin-left: 5vw;
@@ -63,7 +73,7 @@ main img {
 .brand {
     font-family: Segoe UI;
     font-weight: 900;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     margin: 0;
     color: #6C6C6C;
     font-stretch: extra-expanded;
@@ -94,7 +104,7 @@ main img {
     color: #6F2B24;
     font-weight: 600;
     font-family: Segoe UI;
-    font-size: 2.5vw;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,5 +119,5 @@ main img {
     margin-top: 1.2vw;
     border-bottom: 2px solid whitesmoke;
     border-bottom-width: 40%;
-    font-size: 2vw
+    font-size: 1.3vw
 }
