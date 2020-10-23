@@ -31,6 +31,7 @@ main nav {
     margin-left: 2.1vw;
     font-family: 'Crimson Text', serif;
     font-weight: 700;
+    letter-spacing: .3vw;
 
 }
 
@@ -124,12 +125,40 @@ main img {
     position: relative;
 }
 
-.colours {
-    background-color: aqua;
+.colours1 {
     width: 2vw;
     height: 1.5vw;
-    background-color: red;
+    background-color: white;
     position: absolute;
+    left: 2vw;
+    border: 1px solid purple;
+}
+
+.colours2 {
+    width: 2vw;
+    height: 1.5vw;
+    background-color: white;
+    position: absolute;
+    left: 7vw;
+    border: 1px solid pink;
+}
+
+.colours3 {
+    width: 2vw;
+    height: 1.5vw;
+    background-color: white;
+    position: absolute;
+    left: 12vw;
+    border: 1px solid green;
+}
+
+.colours4 {
+    width: 2vw;
+    height: 1.5vw;
+    background-color: white;
+    position: absolute;
+    left: 18vw;
+    border: 1px solid orange;
 }
 
 .spanStyle {

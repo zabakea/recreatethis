@@ -31,6 +31,11 @@ function showProducts(bike) {
         clone.querySelector(".stock").textContent = "No"
     }
 
+    clone.querySelector(".colours1").style.backgroundColor = bike.color1;
+    clone.querySelector(".colours2").style.backgroundColor = bike.color2;
+    clone.querySelector(".colours3").style.backgroundColor = bike.color3;
+    clone.querySelector(".colours4").style.backgroundColor = bike.color4;
+
 
     //appending
     document.querySelector(".stockGrid").appendChild(clone);
