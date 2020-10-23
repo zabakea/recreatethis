@@ -126,39 +126,39 @@ main img {
 }
 
 .colours1 {
-    width: 2vw;
-    height: 1.5vw;
+    width: 1.5vw;
+    height: 1.2vw;
     background-color: white;
     position: absolute;
-    left: 2vw;
-    border: 1px solid purple;
+    left: 6vw;
+
 }
 
 .colours2 {
-    width: 2vw;
-    height: 1.5vw;
+    width: 1.5vw;
+    height: 1.2vw;
     background-color: white;
     position: absolute;
-    left: 7vw;
-    border: 1px solid pink;
+    left: 8vw;
+
 }
 
 .colours3 {
-    width: 2vw;
-    height: 1.5vw;
+    width: 1.5vw;
+    height: 1.2vw;
     background-color: white;
     position: absolute;
-    left: 12vw;
-    border: 1px solid green;
+    left: 10vw;
+
 }
 
 .colours4 {
-    width: 2vw;
-    height: 1.5vw;
+    width: 1.5vw;
+    height: 1.2vw;
     background-color: white;
     position: absolute;
-    left: 18vw;
-    border: 1px solid orange;
+    left: 12vw;
+
 }
 
 .spanStyle {
