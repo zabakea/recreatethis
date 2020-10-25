@@ -20,7 +20,7 @@ function showProducts(bike) {
     clone.querySelector(".priceFrom").textContent = "$" + bike.price_from;
 
     if (bike.price_to.length !== 0) {
-        clone.querySelector(".priceTo").textContent = "$" + bike.price_to;
+        clone.querySelector(".priceTo").textContent = "- $" + bike.price_to;
     } else {
         clone.querySelector(".priceTo").textContent = bike.price_to;
     }
@@ -36,7 +36,7 @@ function showProducts(bike) {
     clone.querySelector(".colours3").style.backgroundColor = bike.color3;
     clone.querySelector(".colours4").style.backgroundColor = bike.color4;
 
-    clone.querySelector(".brand").nodeValue = bike._embedded["wp:term"][0].name;
+    clone.querySelector(".brand").textContent = bike._embedded["wp:term"][0][0].name;
 
 
     //appending
